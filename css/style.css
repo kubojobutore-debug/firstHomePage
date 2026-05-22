@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-align: center; */
+    background-color: #add8e6;
+    scroll-padding-top: 80px;
+}
+
+table{
+    border: solid 2px;
+    /* border-color: #87cefa; */
+    border-collapse: collapse;
+    margin-left: 40%;
+    
+}
+
+td,th{
+    border: solid 1px;
+    /* height: 200px; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* border-color: #87cefa; */
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: darkgrey;
+  align-items: center;
+  position: fixed;
+  position: sticky;
+}
+
+.title {
+  margin-right: auto;
+}
+ 
+.menu-item {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+header {
+  height: 50px;
+  background: gray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.spmenu {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.menubar {
+  max-width: 20px;
+}
+
+.menu-group{
+  margin-right: 5em;
+}
+
+/*ハンバーガーメニュー*/
+label[for="sample"]{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    z-index: 999;
+    font-size: 20px;
+    color: #000;
+    margin: 14px 10px;
+}
+
+/*inputは隠す*/
+input[type="checkbox"]#sample {
+    visibility: hidden;
+}
+
+/*疑似要素で背景*/
+input[type="checkbox"]#sample:checked:before{
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    visibility: visible;
+    z-index: 2147483645;
+    background: rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease-in-out;
+}
+
+/*疑似要素で閉じるボタン*/
+input[type="checkbox"]#sample:checked:after{
+  content: "";
+  width: 20px;
+  height: 20px; 
+  background-image:url(http://kasumiblog.xsrv.jp/codepen/images/menubar02.png);
+  background-size: 20px;
+  visibility: visible;
+  display: block;
+  z-index: 2147483647;
+  position: fixed;
+  top: 12px;
+  right: 10px;
+}
+
+/*メニューを隠す*/
+input[type="checkbox"]#sample + #cover { 
+  width: 100%;
+  height: 100%;
+/*  background:rgba(245, 245, 245, 0.1); */
+  transition: 0.2s ease-in-out;
+  position:fixed;
+  top:0;
+  right: -100%;
+}
+
+/*メニューをオープン時*/
+input[type="checkbox"]#sample:checked + #cover {
+    overflow:scroll;
+  -webkit-overflow-scrolling:touch;
+    z-index: 2147483646;
+    right: 0;
+}
+
+/*メニューの中身装飾*/
+input[type="checkbox"]#sample + #cover > ul {
+  width: 80%;
+  height: 100%;
+  background:rgba(245, 245, 245, 0.95);
+  border:none;
+  z-index: 2147483646;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* 横スクロールアイテム */
+.scroll-container{
+  width: 100%;
+  background-color: #f0f0f0; /* 薄いグレー */;
+  padding: 16px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  display: flex;
+  overflow-x: auto;
+}
+.scroll{
+  margin-top: 4em;
+
+}
+/* StS周り */
+.StSimg{overflow:hidden;}
+.StSimg{
+  height: 432px;
+  width: 768px;
+  margin-right: 1px;
+}
+.StSimg:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.StS{
+  border: solid 2px;
+}
+
+.PoEimg{
+  height: 432px;
+  width: 768px;
+  margin-right: 1px;
+}
+.PoEimg:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.GBFimg{
+  height: 432px;
+  width: 768px;
+}
+.GBFimg:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}

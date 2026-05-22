@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-align: center; */
+    background-color: #add8e6;
+    scroll-padding-top: 80px;
+}
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+.StStop{
+    /* デザイン追加部分 */
+    position: relative;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 0.5em 1em;
+    border: solid 3px #62c1ce;
+}
+.StStop .box-title{
+    /* デザイン追加部分 */
+    position: absolute;
+    display: inline-block;
+    top: -27px;
+    left: -3px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #62c1ce;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+.ToCText{
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: underline;
+    text-decoration-style: dotted; /* 下線のスタイルを点線（ドット）に変更 */
+    text-decoration-thickness: 1px; /* 下線の太さを2ピクセルに変更 */
+    text-underline-offset: 3px;
+}
+/* もくじに戻るボタン制御 */
+#topButton{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    padding: 10px 15px;
+
+    font-size: 16px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: #333;
+    color: white;
+
+    cursor: pointer;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: 0.3s;
+}
+#topButton:hover {
+    opacity: 0.8;
+}
+#topButton.show {
+    opacity: 1;
+    visibility: visible;
+}
+.systemImg{
+    width: 570px;
+    height: 400px;
+}
+
+/* アイアンクラッドの画像調整 */
+.cradImg{
+    width: 1136;
+    height: 288;
+    margin-bottom: 20px;
+}
+.borderPoint{
+    border: solid 2px;
+    border-color: blue;
+    border-radius: 5px;
+    width: 1136px;
+    margin-bottom: 20px;
+}
+.pointHead{
+    border-left: solid 5px;
+    border-color:dodgerblue;
+    background-color: aquamarine;
+    border-radius: 5px;
+    width: 100px;
+    position: relative;
+    bottom: 15px;
+    margin-left: 5px;
+}
+
+.buttonArea{
+    text-align: center;
+}
+.cradButton{
+    width: 200px;
+    height: 40px;
+    background-color: lightgreen;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cradButton:hover{
+    background-color:rgb(91, 151, 91);
+    transition: 0.3s;
+}
+
+.fcdHeader{
+    margin-bottom: 20px;
+}
+
+.cardSize img{
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+.cardSize img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.cardSize{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+    align-items: flex-start;
+}
