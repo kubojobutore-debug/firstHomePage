@@ -129,14 +129,22 @@ html{
     margin-bottom: 20px;
 }
 
+.commonTitle{
+    margin-bottom: 20px;
+}
+
 .cardSize img{
     width: 150px;
     height: auto;
     object-fit: contain;
+    cursor: pointer;
 }
+
 .cardSize img:hover{
     transform: scale(1.1);
-    transition: 0.3s;
+    transition: 0.3s ease;
+    
+    filter: drop-shadow(0 0 10px rgb(0, 128, 128));
 }
 .cardSize{
     display: flex;
@@ -145,3 +153,15 @@ html{
     gap: 20px;
     align-items: flex-start;
 }
+
+.cardButton{
+    width: 200px;
+    height: 40px;
+    background-color: lightgreen;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
