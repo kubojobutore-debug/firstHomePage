@@ -40,6 +40,31 @@ html{
     padding: 0.5em 1em;
     border: solid 3px #62c1ce;
 }
+/* カード一覧目次部分 */
+.StSCardTop{
+    /* デザイン追加部分 */
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 0.5em 1em;
+    border: solid 3px #62c1ce;
+}
+.StSCardTop .box-title{
+    /* デザイン追加部分 */
+    position: absolute;
+    display: inline-block;
+    top: -27px;
+    left: -3px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #62c1ce;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
 .StStop .box-title{
     /* デザイン追加部分 */
     position: absolute;
@@ -56,6 +81,14 @@ html{
     border-radius: 5px 5px 0 0;
 }
 .ToCText{
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: underline;
+    text-decoration-style: dotted; /* 下線のスタイルを点線（ドット）に変更 */
+    text-decoration-thickness: 1px; /* 下線の太さを2ピクセルに変更 */
+    text-underline-offset: 3px;
+}
+.cardMokujiText{
     text-align: center;
     margin: 0 auto;
     text-decoration: underline;
