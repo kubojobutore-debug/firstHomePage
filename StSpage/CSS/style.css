@@ -169,6 +169,7 @@ html{
     align-items: flex-start;
     /* スマホで見たときに自動改行を行う */
     flex-wrap: wrap;
+    
 }
 
 .cardButton{
@@ -180,6 +181,10 @@ html{
     top: 20px;
     border-radius: 10px;
     cursor: pointer;
+}
+.cardButton:hover{
+    background-color:rgb(91, 151, 91);
+    transition: 0.3s;
 }
 .lead{
     margin-bottom: 20px;
