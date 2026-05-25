@@ -184,7 +184,7 @@ html{
 .lead{
     margin-bottom: 20px;
 }
-.commonCardHeader{
+.commonHeader{
     border-left: solid 5px;
     border-color:dodgerblue;
     background-color: grey;
@@ -194,7 +194,7 @@ html{
     bottom: 15px;
     margin-left: 5px;
 }
-.uncommonCardHeader{
+.uncommonHeader{
     border-left: solid 5px;
     border-color:dodgerblue;
     background-color:rgb(123, 218, 255);
@@ -204,7 +204,7 @@ html{
     bottom: 15px;
     margin-left: 5px;
 }
-.rareCardHeader{
+.rareHeader{
     border-left: solid 5px;
     border-color:dodgerblue;
     background-color: rgb(255, 228, 75);
