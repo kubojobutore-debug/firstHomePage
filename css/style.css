@@ -6,7 +6,20 @@
     background-color: #add8e6;
     scroll-padding-top: 80px;
 }
-
+.siteLogo{
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+.siteLogo:hover{
+    opacity: 0.8;
+}
+.siteHeader{
+    display: flex;
+    text-decoration: none;
+    color: #666666;
+    align-items: center;
+}
 table{
     border: solid 2px;
     /* border-color: #87cefa; */
