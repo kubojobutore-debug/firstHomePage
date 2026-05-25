@@ -165,3 +165,37 @@ html{
     cursor: pointer;
 }
 
+.commonCardHeader{
+    border-left: solid 5px;
+    border-color:dodgerblue;
+    background-color: aquamarine;
+    border-radius: 5px;
+    width: 160px;
+    position: relative;
+    bottom: 15px;
+    margin-left: 5px;
+}
+.uncommonCardHeader{
+    border-left: solid 5px;
+    border-color:dodgerblue;
+    background-color: aquamarine;
+    border-radius: 5px;
+    width: 200px;
+    position: relative;
+    bottom: 15px;
+    margin-left: 5px;
+}
+.rareCardHeader{
+    border-left: solid 5px;
+    border-color:dodgerblue;
+    background-color: aquamarine;
+    border-radius: 5px;
+    width: 160px;
+    position: relative;
+    bottom: 15px;
+    margin-left: 5px;
+}
+
+.kaisetu{
+    margin-bottom: 20px;
+}
