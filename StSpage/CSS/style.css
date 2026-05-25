@@ -16,6 +16,21 @@ a{
 html{
     scroll-behavior: smooth;
 }
+.siteLogo{
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+.siteLogo:hover{
+    opacity: 0.8;
+}
+.siteHeader{
+    display: flex;
+    font-size: 30px;
+    text-decoration: none;
+    color: #666666;
+    align-items: center;
+}
 .StStop{
     /* デザイン追加部分 */
     position: relative;
@@ -152,6 +167,8 @@ html{
     margin-bottom: 20px;
     gap: 20px;
     align-items: flex-start;
+    /* スマホで見たときに自動改行を行う */
+    flex-wrap: wrap;
 }
 
 .cardButton{
@@ -164,11 +181,13 @@ html{
     border-radius: 10px;
     cursor: pointer;
 }
-
+.lead{
+    margin-bottom: 20px;
+}
 .commonCardHeader{
     border-left: solid 5px;
     border-color:dodgerblue;
-    background-color: aquamarine;
+    background-color: grey;
     border-radius: 5px;
     width: 160px;
     position: relative;
@@ -178,7 +197,7 @@ html{
 .uncommonCardHeader{
     border-left: solid 5px;
     border-color:dodgerblue;
-    background-color: aquamarine;
+    background-color:rgb(123, 218, 255);
     border-radius: 5px;
     width: 200px;
     position: relative;
@@ -188,14 +207,10 @@ html{
 .rareCardHeader{
     border-left: solid 5px;
     border-color:dodgerblue;
-    background-color: aquamarine;
+    background-color: rgb(255, 228, 75);
     border-radius: 5px;
-    width: 160px;
+    width: 145px;
     position: relative;
     bottom: 15px;
     margin-left: 5px;
-}
-
-.kaisetu{
-    margin-bottom: 20px;
 }
