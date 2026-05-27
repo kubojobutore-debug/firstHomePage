@@ -198,7 +198,7 @@ html{
     display: flex;
     margin-left: 20px;
     margin-bottom: 20px;
-    gap: 20px;
+    gap: 60px;
     align-items: flex-start;
     /* スマホで見たときに自動改行を行う */
     flex-wrap: wrap;
@@ -251,4 +251,22 @@ html{
     position: relative;
     bottom: 15px;
     margin-left: 5px;
+}
+.cradCommonCardTag{
+    display: flex;
+    gap: 10px;
+    
+}
+.cradCommonCardTag span{
+    display: inline-block;
+    border: solid 1px grey;
+    border-color: #1e96c2;
+    background-color:#99e4ff;
+    border-radius: 10px;
+    padding: 1px 10px;
+    position: relative;
+    bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);;
 }
