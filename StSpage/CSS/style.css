@@ -196,9 +196,9 @@ html{
 }
 .cardSize{
     display: flex;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-bottom: 20px;
-    gap: 60px;
+    gap: 80px;
     align-items: flex-start;
     /* スマホで見たときに自動改行を行う */
     flex-wrap: wrap;
@@ -257,7 +257,7 @@ html{
     gap: 10px;
     
 }
-.cradCommonCardTag span{
+.cradCommonCardTag .tag{
     display: inline-block;
     border: solid 1px grey;
     border-color: #1e96c2;
@@ -269,4 +269,11 @@ html{
     margin-top: 10px;
     text-align: center;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);;
+}
+
+.debuff{
+    color: purple;
+}
+.synergy{
+    color:  rgb(190, 190, 0);
 }
