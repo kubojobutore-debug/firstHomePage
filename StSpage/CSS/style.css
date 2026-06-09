@@ -273,7 +273,51 @@ html{
 
 .debuff{
     color: purple;
+    background-color:#99e4ff;
 }
 .synergy{
     color:  rgb(190, 190, 0);
+    background-color:#99e4ff;
+}
+.beginner{
+    color:  rgb(39, 255, 104);
+    background-color:#99e4ff;
+}
+.attack{
+    color:  rgb(138, 0, 0);
+    background-color:#99e4ff;
+}
+.droww{
+    color:  rgb(0, 161, 27);
+    background-color:#99e4ff;
+}
+.pick{
+    color:  rgb(255, 144, 231);
+    background-color:#99e4ff;
+}
+
+.youganTag{
+    margin-left: 10px;
+}
+.miburuiTag{
+    margin-left: 25px;
+}
+.thunderClapTag{
+    margin-left: 30px;
+}
+.pfst{
+    margin-left: 35px;
+}
+.cradUncommonCradTag{
+    display: inline-block;
+    border: solid 1px grey;
+    border-color: #1e96c2;
+    background-color:#99e4ff;
+    border-radius: 10px;
+    padding: 1px 10px;
+    position: relative;
+    bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);;
 }
