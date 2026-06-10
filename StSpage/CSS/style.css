@@ -257,7 +257,7 @@ html{
     gap: 10px;
     
 }
-.cradCommonCardTag .tag{
+.tag{
     display: inline-block;
     border: solid 1px grey;
     border-color: #1e96c2;
@@ -287,12 +287,20 @@ html{
     color:  rgb(138, 0, 0);
     background-color:#99e4ff;
 }
+.aoe{
+    color:  rgb(148, 148, 148);
+    background-color:#99e4ff;
+}
 .droww{
     color:  rgb(0, 161, 27);
     background-color:#99e4ff;
 }
 .pick{
     color:  rgb(255, 144, 231);
+    background-color:#99e4ff;
+}
+.buff{
+    color:  rgb(255, 0, 0);
     background-color:#99e4ff;
 }
 
@@ -305,19 +313,18 @@ html{
 .thunderClapTag{
     margin-left: 30px;
 }
-.pfst{
+.pfstTag{
     margin-left: 35px;
 }
-.cradUncommonCradTag{
-    display: inline-block;
-    border: solid 1px grey;
-    border-color: #1e96c2;
-    background-color:#99e4ff;
-    border-radius: 10px;
-    padding: 1px 10px;
-    position: relative;
-    bottom: 10px;
-    margin-top: 10px;
-    text-align: center;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);;
+.buttletranceTag{
+    margin-left: 10px;
 }
+.cradUncommonCardTag{
+    display: flex;
+    gap: 10px;
+}
+.cradRareCardTag{
+    display: flex;
+    gap: 10px;
+}
+
