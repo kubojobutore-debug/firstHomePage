@@ -280,11 +280,13 @@ html{
   margin-top: auto;
 }
 .debuff{
-    color: purple;
+    color:  rgb(255, 0, 0);
     background-color:#99e4ff;
+        box-shadow: 0 0 3px rgba(0,0,0,0.3);
+        border-radius: 3
 }
 .synergy{
-    color:  rgb(190, 190, 0);
+    color:  rgb(255, 255, 0);
     background-color:#99e4ff;
 }
 .beginner{
@@ -292,26 +294,33 @@ html{
     background-color:#99e4ff;
 }
 .attack{
-    color:  rgb(138, 0, 0);
+    color:  rgb(255, 0, 0);
     background-color:#99e4ff;
 }
 .aoe{
-    color:  rgb(148, 148, 148);
+    color:  rgb(255, 0, 0);
     background-color:#99e4ff;
 }
 .droww{
-    color:  rgb(0, 161, 27);
+    color:  rgb(255, 255, 0);
     background-color:#99e4ff;
 }
 .pick{
-    color:  rgb(255, 144, 231);
+    color:  rgb(255, 255, 0);
     background-color:#99e4ff;
 }
 .buff{
     color:  rgb(255, 0, 0);
     background-color:#99e4ff;
 }
-
+.defence{
+    color:  rgb(255, 0, 0);
+    background-color:#99e4ff;
+}
+.boss{
+    color:  rgb(0, 60, 255);
+    background-color:#99e4ff;
+}
 /* .youganTag{
     margin-left: 10px;
 }
