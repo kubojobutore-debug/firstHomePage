@@ -334,4 +334,16 @@ html{
 .buttletranceTag{
     margin-left: 10px;
 } */
-
+ .pageLayOut{
+    display: flex;
+ }
+.mainArea{
+    display: flex;
+    width: 1150px;
+}
+.cardDetail{
+    position: sticky;
+    background-color: red;
+    width: 6em;
+    height: 6em;
+}
